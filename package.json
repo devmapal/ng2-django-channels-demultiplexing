@@ -1,0 +1,39 @@
+{
+  "name": "ng2-django-channels-demultiplexing",
+  "version": "0.1.0",
+  "description": "Angular 2 library for interacting with a Django Channels demultiplexing backend.",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devmapal/ng2-django-channels-demultiplexing.git"
+  },
+  "keywords": [
+    "angular",
+    "angular2",
+    "django",
+    "channels",
+    "websocket",
+    "demultiplexing"
+  ],
+  "typings": "./index.d.ts",
+  "author": "Fabian Schaffert",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devmapal/ng2-django-channels-demultiplexing/issues"
+  },
+  "homepage": "https://github.com/devmapal/ng2-django-channels-demultiplexing#readme",
+  "peerDependencies": {
+    "@angular/core": "2.x"
+  },
+  "devDependencies": {
+    "@angular/core": "2.x",
+    "@types/core-js": "^0.9.35",
+    "rxjs": "5.x",
+    "typescript": "2.x",
+    "zone.js": ">=0.6.0"
+  }
+}
